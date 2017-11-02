@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Survey</title>
+
+<!-- Latest compiled and minified CSS & JS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+	<script src="https://code.jquery.com/jquery.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+
+
+	
+</head>
+<body>
+	<div class="container">
+	
+		<h1>Take the Survey</h1>
+		<hr>
+		<form role="form" id="survey">
+			<h2>About you</h2>
+			<div class="form-group">
+				<label for="usr">Name: (Required)</label>
+				<input type="text" class="form-control" id="name">
+			</div>
+			<div class="form-group">
+				<label for="pic">URL for Photo: (Required)</label>
+				<input type="text" class="form-control" id="pic">
+				<p>Generic Man: http://clipartix.com/wp-content/uploads/2016/05/Stick-figure-construction-worker-clipart-image-clip-art-a.jpg<p>
+				<p>Generic Woman: https://s-media-cache-ak0.pinimg.com/236x/a1/01/50/a1015051b09805f58525240c87b5c50b.jpg</p>
+			</div>
+			<hr>
+			<h2>Rate how strongly you agree with the following statements:</h2>
+
+			<div class="row col-lg-12">
+				<h3>Question 1</h3>
+				<h4>It is better to eat butter than sugar.</h4>
+				<div class="form-group col-xs-3">
+					<select class="form-control" id="quest1">
+						<option>1 (Strongly Disagree)</option>
+						<option>2</option>
+						<option>3</option>
+						<option>4</option>
+						<option>5 (Strongly Agree)</option>
+					</select>
+				</div>
+			</div>
+
+			<div class="row col-lg-12">
+				<h3>Question 2</h3>
+				<h4>Walking is more healthy than running.</h4>
+				<div class="form-group col-xs-3">
+					<select class="form-control" id="quest2">
+						<option>1 (Strongly Disagree)</option>
+						<option>2</option>
+						<option>3</option>
+						<option>4</option>
+						<option>5 (Strongly Agree)</option>
+					</select>
+				</div>
+			</div>
+
+			<div class="row col-lg-12">
+				<h3>Question 3</h3>
+				<h4>I would rather die happy with less than more with stress.</h4>
+				<div class="form-group col-xs-3">
+					<select class="form-control" id="quest3">
+						<option>1 (Strongly Disagree)</option>
+						<option>2</option>
+						<option>3</option>
+						<option>4</option>
+						<option>5 (Strongly Agree)</option>
+					</select>
+				</div>
+			</div>
+
+			<div class="row col-lg-12">
+				<h3>Question 4</h3>
+				<h4>I would support local farmers than agri companies</h4>
+				<div class="form-group col-xs-3">
+					<select class="form-control" id="quest4">
+						<option>1 (Strongly Disagree)</option>
+						<option>2</option>
+						<option>3</option>
+						<option>4</option>
+						<option>5 (Strongly Agree)</option>
+					</select>
+				</div>
+			</div>
+
+			<div class="row col-lg-12">
+				<h3>Question 5</h3>
+				<h4>You can't complain about policies if you don't vote</h4>
+				<div class="form-group col-xs-3">
+					<select class="form-control" id="quest5">
+						<option>1 (Strongly Disagree)</option>
+						<option>2</option>
+						<option>3</option>
+						<option>4</option>
+						<option>5 (Strongly Agree)</option>
+					</select>
+				</div>
+			</div>
+
+			<div class="row col-lg-12">
+				<h3>Question 6</h3>
+				<h4>Bullies are a product of bullying</h4>
+				<div class="form-group col-xs-3">
+					<select class="form-control" id="quest6">
+						<option>1 (Strongly Disagree)</option>
+						<option>2</option>
+						<option>3</option>
+						<option>4</option>
+						<option>5 (Strongly Agree)</option>
+					</select>
+				</div>
+			</div>
+
+			<div class="row col-lg-12">
+				<h3>Question 7</h3>
+				<h4>Rapists are clinically sick</h4>
+				<div class="form-group col-xs-3">
+					<select class="form-control" id="quest7">
+						<option>1 (Strongly Disagree)</option>
+						<option>2</option>
+						<option>3</option>
+						<option>4</option>
+						<option>5 (Strongly Agree)</option>
+					</select>
+				</div>
+			</div>
+
+			<div class="row col-lg-12">
+				<h3>Question 8</h3>
+				<h4>Watching TV makes you distracted and brainwashed.</h4>
+				<div class="form-group col-xs-3">
+					<select class="form-control" id="quest8">
+						<option>1 (Strongly Disagree)</option>
+						<option>2</option>
+						<option>3</option>
+						<option>4</option>
+						<option>5 (Strongly Agree)</option>
+					</select>
+				</div>
+			</div>
+
+			<div class="row col-lg-12">
+				<h3>Question 9</h3>
+				<h4>Reading is sexy.</h4>
+				<div class="form-group col-xs-3">
+					<select class="form-control" id="quest9">
+						<option>1 (Strongly Disagree)</option>
+						<option>2</option>
+						<option>3</option>
+						<option>4</option>
+						<option>5 (Strongly Agree)</option>
+					</select>
+				</div>
+			</div>
+
+			<div class="row col-lg-12">
+				<h3>Question 10</h3>
+				<h4>Stupid people are more dangerous than sociopaths.</h4>
+				<div class="form-group col-xs-3">
+					<select class="form-control" id="quest10">
+						<option>1 (Strongly Disagree)</option>
+						<option>2</option>
+						<option>3</option>
+						<option>4</option>
+						<option>5 (Strongly Agree)</option>
+					</select>
+				</div>
+			</div>
+			
+			<button type="button" class="btn btn-success btn-block" id="submit">Submit</button>
+	
+		</form>
+
+		<!--This is the  Modal -->
+  <div class="modal fade" id="friend-modal" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- This is the Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title"></h4>
+        </div>
+        <div class="modal-body">
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+  <div class="footer">
+  	<br>
+  	<br>
+  </div>
+	</div>
+<script type="text/javascript">
+		 
+	$('#submit').on("click", function(){
+		
+		// var for name  and photo
+
+		
+		var namePhoto;
+		if($("#name").val().trim() === ''){
+			alert('Please enter a name');
+		}
+		else if($("#pic").val().trim() === ''){
+			alert('Please enter a link to photo');
+		}
+		else{
+			//var for answer
+
+
+			var answerArray = [];
+
+
+			//Updating answers with Push
+			for(i=1; i<11; i++){
+				answerArray.push(parseInt($('#quest' + i).val().substring(0,1)));
+			}
+			//Var for creating new friends
+			var newFriend = 
+			{
+				name: $("#name").val().trim(),
+				photo: $("#pic").val().trim(),
+				scores: answerArray
+			};
+			//r Var for the current location 
+
+			var currentURL = window.location.origin;
+
+			//Posting and updating the new data
+
+
+			$.post(currentURL + "/api/friends", newFriend,
+		    function(data){});
+
+
+			//Updated friends
+
+
+			$.ajax({url: currentURL + "/api/friends", method: "GET"}).done(function(res){
+					
+				var coolHomie;
+				var currentHomie = 100;
+				var differenceArray = [];
+
+
+				//Looping through friends
+				for(i=0; i < res.length - 1; i++){
+					//Pushing th obsolute values after checking
+					for(j=0; j<10; j++){
+						var currentDifference = newFriend.scores[j] - res[i].scores[j];
+						differenceArray.push(Math.abs(currentDifference));
+					}
+					//Giving the difference
+
+
+
+					var difference = differenceArray.reduce(add, 0);
+
+
+					//Action when answers are different
+
+
+					if(difference < currentHomie{
+						coolHomie = res[i];
+						currentHomie = difference;
+						differenceArray = [];
+					}
+					
+					else{
+						differenceArray =[];
+					}
+					
+				}
+				//This is for the modal update
+
+
+				var friendName = '<h4>' + coolHomie.name + '<h4>';
+				var friendPic = '<img width="300px" src=' + coolHomie.photo + '>';
+
+
+				//This is for modal to display
+
+				
+				$('#friend-modal').modal('show');
+				$('#friend-modal h4').html(friendName);
+				$('.modal-body').html(friendPic);
+
+
+				// Clearing at the end
+				$('#survey')[0].reset();
+				
+			});
+		}
+return false;
+});
+function add(a, b){
+	return a+b;
+};
+</script>
+</body>
